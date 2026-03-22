@@ -13,21 +13,6 @@
 
 ---
 
-## Screenshots
-
-<p align="center">
-  <!-- Replace the images below with actual screenshots after first run -->
-  <!-- Suggested: capture each task pane tab at ~300px width and save to docs/ -->
-</p>
-
-| Arrange & Size | Font & Fill | Shadow & Quick |
-|:--------------:|:-----------:|:--------------:|
-| ![Arrange tab](docs/screenshot-arrange.png) | ![Font tab](docs/screenshot-font.png) | ![Shadow tab](docs/screenshot-shadow.png) |
-
-> **Note:** To add screenshots — open PowerPoint with the add-in loaded, take a snip of each tab, save to `docs/` as `screenshot-arrange.png`, `screenshot-font.png`, `screenshot-shadow.png`, then push.
-
----
-
 ## What it does
 
 PPT ToolBox adds a **"PPT Tools"** toggle button to PowerPoint's **Home tab**. Clicking it opens a side panel with five tabs:
