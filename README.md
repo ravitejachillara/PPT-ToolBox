@@ -1,11 +1,30 @@
 # PPT ToolBox
 
+<p align="center">
+  <img src="docs/git-readmeheader.png" alt="PPT ToolBox" width="100%"/>
+</p>
+
 > A PowerPoint add-in that puts professional formatting controls one click away — without leaving your slide.
 
 [![Platform](https://img.shields.io/badge/platform-Windows-0078d4?logo=windows)](https://github.com/ravitejachillara/PPT-ToolBox)
 [![Office](https://img.shields.io/badge/Office-2016%2B-D83B01?logo=microsoft-office)](https://github.com/ravitejachillara/PPT-ToolBox)
 [![.NET](https://img.shields.io/badge/.NET_Framework-4.8-512BD4?logo=dotnet)](https://github.com/ravitejachillara/PPT-ToolBox)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+---
+
+## Screenshots
+
+<p align="center">
+  <!-- Replace the images below with actual screenshots after first run -->
+  <!-- Suggested: capture each task pane tab at ~300px width and save to docs/ -->
+</p>
+
+| Arrange & Size | Font & Fill | Shadow & Quick |
+|:--------------:|:-----------:|:--------------:|
+| ![Arrange tab](docs/screenshot-arrange.png) | ![Font tab](docs/screenshot-font.png) | ![Shadow tab](docs/screenshot-shadow.png) |
+
+> **Note:** To add screenshots — open PowerPoint with the add-in loaded, take a snip of each tab, save to `docs/` as `screenshot-arrange.png`, `screenshot-font.png`, `screenshot-shadow.png`, then push.
 
 ---
 
@@ -136,7 +155,7 @@ PPTToolbox_VSTO/
 │   ├── ThisAddIn.cs             # Add-in startup, CustomTaskPane wiring
 │   └── Resources/
 │       ├── ribbon_icon.png      # 32×32 icon for the Home tab button
-│       ├── company_logo.png     # Shown in task pane footer (max 20 px height)
+│       ├── company_logo.png     # Shown in task pane footer (max 20 px height) — replace with your logo
 │       └── app_icon.ico         # Installer icon
 ├── Installer/
 │   ├── setup.iss                # Inno Setup script
