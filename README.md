@@ -13,7 +13,7 @@
 
 ---
 
-## What it does
+## What it does ?
 
 PPT ToolBox adds a **"PPT Tools"** toggle button to PowerPoint's **Home tab**. Clicking it opens a side panel with five tabs:
 
