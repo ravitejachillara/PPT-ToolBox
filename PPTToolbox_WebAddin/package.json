@@ -1,0 +1,23 @@
+{
+  "name": "ppttoolbox-webaddin",
+  "version": "1.0.0",
+  "description": "PPT ToolBox — Office Web Add-in for Mac, Windows, and Web",
+  "scripts": {
+    "build":     "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "dev":       "webpack serve --mode development",
+    "lint":      "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/office-js":       "^1.0.0",
+    "copy-webpack-plugin":    "^12.0.0",
+    "css-loader":             "^7.0.0",
+    "html-webpack-plugin":    "^5.0.0",
+    "style-loader":           "^4.0.0",
+    "ts-loader":              "^9.0.0",
+    "typescript":             "^5.0.0",
+    "webpack":                "^5.0.0",
+    "webpack-cli":            "^5.0.0",
+    "webpack-dev-server":     "^5.0.0"
+  }
+}

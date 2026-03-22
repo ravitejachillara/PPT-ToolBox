@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target":           "ES6",
+    "module":           "commonjs",
+    "lib":              ["ES6", "DOM"],
+    "strict":           false,
+    "esModuleInterop":  true,
+    "skipLibCheck":     true,
+    "outDir":           "dist",
+    "rootDir":          "src",
+    "types":            ["office-js"]
+  },
+  "exclude": ["node_modules", "dist"]
+}
